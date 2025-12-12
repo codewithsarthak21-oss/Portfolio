@@ -353,7 +353,7 @@ nav .fa-solid{
 /* Header background for mobile screens */
 @media screen and (max-width: 600px) {
     #header {
-        background-image: url('images/screenbackground.png');
+        background-image: url('images/phone-background');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -469,4 +469,5 @@ nav .fa-solid{
 .services-list img{ 
     width:180px;
     height: 250px;
+
 }
