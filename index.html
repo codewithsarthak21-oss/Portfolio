@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>I’m <span>Sarthak</span><br>Tech Enthusiast</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I’m Sarthak — a passionate IT student specializing in web development, software testing, and modern technologies. I enjoy building responsive websites, learning new technologies, and solving real-world problems through clean and efficient code. My goal is to become a skilled software engineer and work at Google one day.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', this)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience', this)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education', this)">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025-2026</span><br>Websum Software Solutions</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br>Government Polytechnic Chh. Sambhaji Nagar</li>
+                            <li><span>2023</span><br>Moral English School</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I design modern, responsive, and user-friendly websites that look great on all devices. My focus is on clean layouts, smooth interactions, and visually appealing designs that align with your brand.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I design intuitive and user-friendly interfaces focused on clarity, simplicity, and smooth user experience. My goal is to create designs that look great and work even better.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I design modern, user-friendly, and intuitive mobile app interfaces that ensure a smooth and enjoyable user experience across all devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <img src="images/C.png" >
+                </div>
+
+                <div>
+                    <img src="images/Java.png" >
+                </div>
+
+                <div>
+                    <img src="images/Python.png" >
+                </div>
+
+                <div>
+                    <img src="images/Html.png" >
+                </div>
+
+                <div>
+                    <img src="images/Css.png" >
+                </div>
+
+                <div>
+                    <img src="images/Js.png" >
+                </div>
+
+                <div>
+                    <img src="images/Sql.jpg" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Food Delivery App</h3>
+                        <p>Order food online with multiple choices.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>College Website</h3>
+                        <p>Get updates about syllabus & fee structure.</p>
+                        <a href="https://codewithsarthak21-oss.github.io/collegewebsite/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Rock Paper Scissor Game</h3>
+                        <p>A fun browser-based RPS game.</p>
+                        <a href="https://codewithsarthak21-oss.github.io/rock-paper-scissors-game/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-4.png">
+                    <div class="layer">
+                        <h3>BMI Calculator/h3>
+                        <p>Calculate your Body,Mass and Index.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    
+    <div class="Certificates"><br>
+        <h1><center><i class="fa-solid fa-certificate"></i>Certification</center></h1>
+        <ol id="certi">
+            <li><a href="certificates/Microsoft-unit-testing.pdf"><b><i class="fa-regular fa-circle-dot"></i> Microsoft - Develop unit tests using GitHub Copilot tools </a></li>
+            <li><a href="#"><b><i class="fa-regular fa-circle-dot"></i> Infosys </b>- Information Security</a></li>
+            <li><a href="certificates/webdevelopment.pdf"><b><i class="fa-regular fa-circle-dot"></i> Coursera - HTML,CSS and Javascript for Web Developers</a></li>
+            <li><a href="certificates/cybersecurity.pdf"><b><i class="fa-regular fa-circle-dot"></i> Coursera - Foundations of Cybersecurity</a></li>
+            <li><a href="certificates/jenc.pdf"><b><i class="fa-regular fa-circle-dot"></i> Coding Competition(Codathon)</a></li>
+            <li><a href="certificates/gpcs.pdf"><b><i class="fa-regular fa-circle-dot"></i> C-Code Error Hunt </a></li><br>
+        <ol>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-brands fa-telegram"></i> sarthakgjadhav77@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 7499463711</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1AGNXQ85Ci/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/sarthakk.jadhav2111?igsh=NnF1Ym5raWh2Ymkx"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sarthak-jadhav-437b75335/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/codewithsarthak21-oss"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/SarthakJadhav-Resume (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <p class="copyright">Copyright Sarthak Jadhav.Made by <i class="fa-solid fa-heart"></i> Sarthak Jadhav</p>
+        </div>
+    </div>
+    <script>
+        function opentab(tabname, element){
+            let tablinks = document.getElementsByClassName("tab-links");
+            let tabcontents = document.getElementsByClassName("tab-contents");
+
+            for (let tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            element.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+         function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxUJmZM1GRYUCf5IhHNDebd_b9nLdRMaTVPJAFhnI7-2a5i2otveJvIPvZaoTJP4HOfpQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg");
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
