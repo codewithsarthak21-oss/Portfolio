@@ -114,7 +114,7 @@
                 </div>
 
                 <div>
-                    <img src="images/python.png" >
+                    <img src="images/Python.png" >
                 </div>
 
                 <div>
@@ -221,7 +221,10 @@
                     </form>
                     <span id="msg"></span>
                 </div>
-            </div>
+            </div><p style="text-align:center; font-size:16px;">
+    👁️ Visitors: <span id="visits">0</span>
+</p>
+
             <p class="copyright">Copyright Sarthak Jadhav.Made by <i class="fa-solid fa-heart"></i> Sarthak Jadhav</p>
         </div>
     </div>
@@ -271,6 +274,15 @@
       .catch(error => console.error('Error!', error.message))
   })
 </script>
+
+<script>
+fetch('https://api.countapi.xyz/hit/sarthakgjadhav77-portfolio/visits')
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("visits").innerText = data.value;
+  })
+  .catch(error => console.error(error));
+</script>
+
 </body>
 </html>
-
