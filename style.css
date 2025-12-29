@@ -363,14 +363,14 @@ nav .fa-solid{
 
 /*-------------- CERTIFICATES --------------*/
 
-.Certificates{
+#certificates{
     border: 4px solid #ff004f; 
     border-radius: 30px;
     padding: 25px;
     margin-top: 40px;
 }
 
-.Certificates h1{
+#certificates h1{
    margin-bottom: 30px;
    color: #ff004f;
 }
@@ -404,7 +404,7 @@ nav .fa-solid{
 }
 
 /*-----------------------------------------------------
-                🔥 MOBILE RESPONSIVE FIXES
+                MOBILE RESPONSIVE FIXES
 -----------------------------------------------------*/
 
 @media screen and (max-width: 600px) {
@@ -483,7 +483,7 @@ nav .fa-solid{
         font-size: 14px;
     }
 
-    /* 🔥 Certificate text smaller ONLY on phones */
+    
     #certi a {
         font-size: 12px;
         margin-left: 10px;
