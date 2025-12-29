@@ -489,6 +489,28 @@ nav .fa-solid{
         margin-left: 10px;
         line-height: 20px;
     }
+    #certificates {
+        border: 2px solid #ff004f;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 20px 12px;
+    }
+
+    #certificates h1 {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #certificates ol {
+        padding-left: 18px;
+    }
+
+    #certificates li {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
 }
 
 #msg{
