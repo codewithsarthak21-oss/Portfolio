@@ -1,4 +1,4 @@
-### 💻 Web Developer | IT Student | Tech Enthusiast
+ ### 💻 Web Developer | IT Student | Tech Enthusiast
 
 I'm a passionate Information Technology student who enjoys building responsive websites, exploring modern technologies, and solving real-world problems through clean and efficient code.
 
